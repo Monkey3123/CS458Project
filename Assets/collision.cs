@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class collision : MonoBehaviour
 {
-    public Material red;
     void OnCollisionEnter(Collision other)
     {
         // Check if the colliding object has a specific tag
